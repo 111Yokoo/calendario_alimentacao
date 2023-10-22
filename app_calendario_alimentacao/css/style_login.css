@@ -1,0 +1,58 @@
+body{
+    overflow-y: hidden;
+}
+/***********
+id*/
+#login #container{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+}
+
+#singin #container{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+}
+
+/*************
+Classes*/
+#container .bg-dark{
+    border-radius: 10px 10px 0 0 ;
+}
+.form{
+    margin-top: 50px;
+}
+.btn-password{
+    margin-top: 5px;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+}
+
+/**************
+Elementos*/
+nav{
+    padding: 10px;
+}
+input{
+    display: inline-block;
+    margin: 5px 1px 5px 5px;
+    padding: 5px;
+    width: 350px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    border-right: none;
+    border-top: none;
+}
+input#btn-submit, input#btn-submit-singin{
+    width: 100px;
+}
+input#senha{
+    width: 310px;
+}
+a{
+    margin-top: 15px;
+    margin-right: 10px;
+}

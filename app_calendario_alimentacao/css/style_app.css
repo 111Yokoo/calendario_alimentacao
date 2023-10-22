@@ -1,0 +1,63 @@
+
+/*ids*/
+#btn-remove{
+    height: 45px;
+}
+#home section article{
+    margin: 15px;
+}
+
+/*classes*/
+.quantidade{
+    padding: 5px;
+    border-radius: 3px;
+}
+.users-separation li:hover{
+    cursor: pointer;
+    background-color: #3d3d3da9;
+    color: #fff;
+}
+.ativo{
+    background-color: #3d3d3d;
+    color: #fff;
+}
+.btn-cima{
+    border-radius: 50%;
+    margin: 15px;   
+}
+.cardapio_dados{
+    margin: 0px 10px;
+}
+
+/*tags*/
+body{
+    min-width: 750px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+main{
+    margin-top: 70px;
+}
+input[type="date"]{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border: none;
+}
+input[type="date"]:hover {
+    cursor: pointer;
+}
+input[type="submit"]{
+    height: 50px;
+    width: 200px;
+}
+textarea{
+    height: 100px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border: none;
+    resize: none;
+}
